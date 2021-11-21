@@ -25,8 +25,6 @@ The primary arithmetic operators are:
 
 """
 Precedence : refers to the order of operations
-
-In short, Python followed the order of operators outlined in BEDMAS.
 Read more here : https://www.programiz.com/python-programming/precedence-associativity
 
 An arithmetic expression containing different operators will be computed on the basis of operator precedence.
@@ -43,3 +41,51 @@ Whenever operators have equal precedence, the expression is computed from the le
 #T0-D0
 #What should the code below output?
 #print((4 * 2) + 6 / 3 - 2)
+
+
+#Comparison Operators
+"""
+Comparison operators can be used to compare values in mathematical terms
+The result of a comparison is always a bool.
+If the comparison is correct, the value of the bool will be True. Otherwise, its value will be False
+
+
+< less than
+> greater than
+<= less than or equal to
+>= greater than or equal too
+== equal to
+!= not equal to
+"""
+#Few examples
+# num1 = 5
+# num2 = 10
+# num3 = 10
+# print(num2 > num1)  # 10 is greater than 5
+# print(num1 > num2)  # 5 is not greater than 10
+
+# print(num2 == num3)  # Both have the same value
+# print(num3 != num1)  # Both have different values
+
+# print(3 + 10 == 5 + 5)  # Both are not equal
+# print(3 <= 2)  # 3 is not less than or equal to 2
+
+
+#Logical Operators
+"""
+Logical operators are used to combine conditional statements
+
+and : returns True if both statements are True
+or : returns True if one of the statements is True
+not : returns True if the statement is False
+"""
+
+#Few examples
+# x = 5
+# print(x > 3 and x < 10)
+
+#identity operators
+"""
+They are used to check if two values (or variables) are located on the same part of the memory. 
+Two variables that are equal does not imply that they are identical.
+"""
