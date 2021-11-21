@@ -113,3 +113,34 @@ y3 = [1,2,3]
 # Output: False
 #x3 and y3 are lists. They are equal but not identical. 
 # It is because the interpreter locates them separately in memory although they are equal.
+
+
+#Membership Operators
+"""
+They are used to test whether a value or variable is found in a sequence (string, list, tuple, set and dictionary).
+
+'in'	    True if value/variable is found in the sequence	
+'not in'	True if value/variable is not found in the sequence
+"""
+
+#Few examples
+# x = 'Hello world'
+# y = {1:'a',2:'b'}
+
+# Output: True
+# print('H' in x)
+
+# Output: True
+# print('hello' not in x)
+
+# Output: True
+# print(1 in y)
+
+# Output: False
+# print('a' in y)
+
+
+#Bitwise operations
+"""
+Read more here : https://www.pythonforbeginners.com/basics/python-bitwise-operators
+"""
