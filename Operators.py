@@ -88,4 +88,28 @@ not : returns True if the statement is False
 """
 They are used to check if two values (or variables) are located on the same part of the memory. 
 Two variables that are equal does not imply that they are identical.
+
+
+'is' True if the operands are identical (refer to the same objects).
+'is not' True if the operands are not identical (do not refer to the same object)
 """
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+x3 = [1,2,3]
+y3 = [1,2,3]
+
+# print(x is z)
+# returns True because z is the same object as x
+
+# print(x is y)
+# returns False because x is not the same object as y, even if they have the same content
+
+# print(x == y)
+# to demonstrate the difference betweeen "is" and "==": this comparison returns True because x is equal to y
+
+# print(x3 is y3)
+# Output: False
+#x3 and y3 are lists. They are equal but not identical. 
+# It is because the interpreter locates them separately in memory although they are equal.
