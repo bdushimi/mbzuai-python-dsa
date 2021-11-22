@@ -23,6 +23,7 @@ The primary arithmetic operators are:
 #Try out an arithmetic operator you have not used
 #Print the "result" variable
 
+
 """
 Precedence : refers to the order of operations
 Read more here : https://www.programiz.com/python-programming/precedence-associativity
@@ -40,7 +41,7 @@ Whenever operators have equal precedence, the expression is computed from the le
 
 #T0-D0
 #What should the code below output?
-#print((4 * 2) + 6 / 3 - 2)
+# print((4 * 2) + 6 / 3 - 2)
 
 
 #Comparison Operators
@@ -67,7 +68,7 @@ If the comparison is correct, the value of the bool will be True. Otherwise, its
 # print(num2 == num3)  # Both have the same value
 # print(num3 != num1)  # Both have different values
 
-# print(3 + 10 == 5 + 5)  # Both are not equal
+#print(3 + 10 == 5 + 5)  # Both are not equal
 # print(3 <= 2)  # 3 is not less than or equal to 2
 
 
@@ -81,8 +82,8 @@ not : returns True if the statement is False
 """
 
 #Few examples
-# x = 5
-# print(x > 3 and x < 10)
+#x = 5
+#print(x > 3 and x < 10)
 
 #identity operators
 """
@@ -94,19 +95,25 @@ Two variables that are equal does not imply that they are identical.
 'is not' True if the operands are not identical (do not refer to the same object)
 """
 
-x = ["apple", "banana"]
+x = ["apple", "banana"] 
+# create a difference memory location m1 = ["apple", "banana"]
 y = ["apple", "banana"]
+# create a difference memory location m2 = ["apple", "banana"]
 z = x
 x3 = [1,2,3]
 y3 = [1,2,3]
 
-# print(x is z)
+# You can add some numbers to x3 without performing an assignment
+
+
+
+#print(x is z)
 # returns True because z is the same object as x
 
 # print(x is y)
 # returns False because x is not the same object as y, even if they have the same content
 
-# print(x == y)
+#print(x == y)
 # to demonstrate the difference betweeen "is" and "==": this comparison returns True because x is equal to y
 
 # print(x3 is y3)
@@ -123,9 +130,9 @@ They are used to test whether a value or variable is found in a sequence (string
 'not in'	True if value/variable is not found in the sequence
 """
 
-#Few examples
-# x = 'Hello world'
-# y = {1:'a',2:'b'}
+# Few examples
+x = 'Hello world'
+y = {1:'a',2:'b'}
 
 # Output: True
 # print('H' in x)
@@ -140,7 +147,7 @@ They are used to test whether a value or variable is found in a sequence (string
 # print('a' in y)
 
 
-#Bitwise operations
+#Bitwise operators
 """
 Read more here : https://www.pythonforbeginners.com/basics/python-bitwise-operators
 """
