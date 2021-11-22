@@ -41,7 +41,7 @@ numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 #Write a Python program to count the occurrences of each characher in a given sentence
 
 #Challenge 10:
-# Write a Python program which solve the equation: Go to the editor
+# Write a Python program which solve the equation:
 # ax+by=c
 # dx+ey=f
 # Print the values of x, y where a, b, c, d, e and f are given.
