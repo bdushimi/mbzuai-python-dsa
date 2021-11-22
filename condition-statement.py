@@ -22,7 +22,7 @@ By default, Python uses four spaces for indentation
 
 #Simple if statement
 
-# num = 5
+num = 5
 # if (num == 5):  # The condition is true
 #     print("The number is equal to 5")  # The code is executed
 
@@ -35,19 +35,19 @@ You can use logical operators to create more complex conditions in the if statem
 For example, you may want to satisfy multiple clauses for the expression to be True.
 """
 
-# num = 12
+num = 12
 # if num % 2 == 0 and num % 3 == 0 and num % 4 == 0:
 #     # Only works when num is a multiple of 2, 3, and 4
 #     print("The number is a multiple of 2, 3, and 4")
 
-# if (num % 5 == 0 or num % 6 == 0):
+# if (num % 5 == 0 and num % 6 == 0):
 #     # Only works when num is either a multiple of 5 or 6
 #     print("The number is a multiple of 5 and/or 6")
 
 """
 Nested if Statements
 """
-# num = 63
+# num = 73
 
 # if num >= 0 and num <= 100:
 #     if num >= 50 and num <= 75:
@@ -55,7 +55,7 @@ Nested if Statements
 #             print("The number is in the 60-70 range")
 
 
-#if-else statement 
+# if-else statement 
 
 # num = 60
 # if num <= 50:
@@ -118,12 +118,12 @@ the rest of the statement’s conditions are not evaluated.
 
 #If example
 # num = 10
-# if num > 5:
-#     print("The number is greater than 5")
-# if num % 2 == 0:
-#     print("The number is even")
-# if not num % 2 == 0:
-#     print("The number is odd")
+if num > 5:
+    print("The number is greater than 5")
+if (num % 2 == 0):
+    print("The number is even")
+if (not num % 2 == 0):
+    print("The number is odd")
 
 
 # if-elif-else example
@@ -134,3 +134,4 @@ the rest of the statement’s conditions are not evaluated.
 #     print("The number is even")
 # else:
 #     print("The number is odd and less than or equal to 5")
+
