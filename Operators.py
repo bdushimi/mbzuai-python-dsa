@@ -32,6 +32,8 @@ An arithmetic expression containing different operators will be computed on the 
 Whenever operators have equal precedence, the expression is computed from the left side
 """
 
+print(2**3)
+
 # Different precedence
 #print(10 - 3 * 2)  # Multiplication computed first, followed by subtraction
 
