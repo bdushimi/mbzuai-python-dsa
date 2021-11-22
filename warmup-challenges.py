@@ -8,6 +8,7 @@ numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 #Challenge 2:
 #Write a Python program which will return true if the two given integer values are equal or their sum or difference is 5.
 
+
 #Challenge 3:
 #Write a Python program to compute the distance between the points (x1, y1) and (x2, y2)
 
