@@ -22,8 +22,14 @@ dogs = ["Spot", "Max", "Sam", "Charlie", "Cooper", "Duke", "Bear", "Buddy", "Mil
 # dogs[0] = "Jack"
 # print(dogs)
 
-#Accessing a range of values by clicing Items in a Python Array
-print(dogs[1:4])
+#Accessing a range of values by slicing Items in a Python Array
+# print(dogs[1:4])
+
+#Access all elements before a certain point in a list
+# print(dogs[:2])
+
+#Access all elements after a certain point in a list
+#print(dogs[2:])
 
 #Remove elements, with the the pop(), you can remove an element at a specified position
 # dogs.pop(9)
