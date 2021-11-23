@@ -1,6 +1,5 @@
 import math
 
-
 # Challenge 1
 # Write a program that prints out all the elements of the list "numbers" that are less than 5.
 
