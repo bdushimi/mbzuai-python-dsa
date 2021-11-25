@@ -168,7 +168,7 @@ import math
         
 #         print(x, y)
 
-# resolve(3,2,10,2,-2,5)
+# resolve(1,2,4,3,-5,1)
 
 #Assignment Day 1:
 #Problem statement:
