@@ -213,6 +213,21 @@ Sample output
 # print(fib(n))
 
 
+def remove_duplicates(l):
+  l_ = []
+  hyphens = 0
+  for elt in l:
+    if elt in l_:
+      hyphens += 1
+    else:
+      l_.append(elt)
+  for i in range(hyphens):
+    l_.append('_')
+  return l_
+
+print(remove_duplicates([1,2,3,3,1,4,2,2]))
+
+
 
 
 
