@@ -1,4 +1,4 @@
-#Warmup Challenge
+#10 Warm up Challenges
 
 # Challenge 1:
 # Write a program that prints out all the elements of the list "numbers" that are less than 5.
@@ -42,7 +42,7 @@ numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 #Write a Python program to count the occurrences of each characher in a given sentence
 
 #Challenge 10:
-# Write a Python program which solve the equation: Go to the editor
+# Write a Python program which solve the equation:
 # ax+by=c
 # dx+ey=f
 # Print the values of x, y where a, b, c, d, e and f are given.
@@ -52,20 +52,7 @@ numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
 
 
-#Assignment Day 1:
-#Problem statement:
-"""
-The Fibonacci sequence is a series of numbers where every number is the sum of the two numbers before it. The first two numbers are 0 and 1:
 
-You must write the fib() function which takes in a positive integer, n, and returns the n-th Fibonacci number. 
-Your function must use any of the loops.
-
-Sample input
-n=7
-
-Sample output
-8
-"""
 
 
 
