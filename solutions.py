@@ -209,23 +209,86 @@ Sample output
 #     return fib_n
 
 
-# n = 3
+# n = 5
 # print(fib(n))
 
 
-def remove_duplicates(l):
-  l_ = []
-  hyphens = 0
-  for elt in l:
-    if elt in l_:
-      hyphens += 1
-    else:
-      l_.append(elt)
-  for i in range(hyphens):
-    l_.append('_')
-  return l_
+# def remove_duplicates(l):
+#   l_ = []
+#   hyphens = 0
+#   for elt in l:
+#     if elt in l_:
+#       hyphens += 1
+#     else:
+#       l_.append(elt)
+#   for i in range(hyphens):
+#     l_.append('_')
+#   return l_
 
-print(remove_duplicates([1,2,3,3,1,4,2,2]))
+# print(remove_duplicates([1,2,3,3,1,4,2,2]))
+
+
+
+# Day-2-warm-up-challenges-rdf-candidates
+
+# Challenge 1
+# Implement a function that removes all the even elements from a given list. Name it remove_even(lst).
+# Input#
+# A list with random integers.
+# Output
+# A list with only odd integers
+
+
+# def remove_even(lst):
+#     odd_lst = []
+#     for elt in lst:
+#         if elt % 2 != 0:
+#             odd_lst.append(elt)
+#     return odd_lst
+# my_list = [1,2,4,5,10,6,3]
+# print(remove_even(my_list))
+
+
+# Challenge 2
+# Implement a function that merges two sorted lists of m and n elements respectively, into another sorted list. Name it merge_lists(lst1, lst2).
+
+# Sample Input
+# list1 = [1,3,4,5]  
+# list2 = [2,6,7,8]
+
+# Sample Output
+# arr = [1,2,3,4,5,6,7,8]
+
+# def merge_lists(lst1, lst2):
+#     arr = []
+#     while lst1 and lst2:
+#         if lst1[0] < lst2[0]:
+#             arr.append(lst1.pop(0))
+#         else:
+#             arr.append(lst2.pop(0))
+#     return arr + lst1 + lst2
+# print(merge_lists([1,3,4,5],[2,6,7,8]))
+# print(merge_lists([4, 5, 6], [-2, -1, 0, 7]))
+
+
+# Challenge 3
+# Implement a function, find_product(lst), which modifies a list so that each index has a product of all the numbers present in the list except the number stored at that index.
+
+# Input
+# A list of numbers (could be floating points or integers)
+# arr = [1,2,3,4]
+# Output:#
+# A list such that each index has a product of all the numbers in the list except the number stored at that index.
+# arr = [24,12,8,6]
+
+
+
+
+
+
+
+
+
 
 
 
