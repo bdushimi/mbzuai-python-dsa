@@ -301,6 +301,43 @@ Sample output
 
 
 
+# Challenge 5 
+# Implement a function find_second_maximum(lst) which returns the second largest element in the list.
+# Input:#
+# A List
+# Output:#
+# Second largest element in the list
+# Sample Input#
+# [9,2,3,6]
+# Sample Output#
+# 6
+
+# Solution by using built-in functions
+# Caveat: Note that this solution won’t work if duplicates of the first largest number exist
+# def find_second_maximum(lst):
+#     lst.sort()
+#     return lst[-2]
+# print(find_second_maximum([9,2,3,6,9]))
+
+
+# Solution by using custom functions
+# Hint : Traverse the list twice
+# def find_second_maximum(lst):
+#     first_max = float('-inf')
+#     second_max = float('-inf')
+#     # find first max
+#     for item in lst:
+#         if item > first_max:
+#             first_max = item
+#     # find max relative to first max
+#     for item in lst:
+#         if item != first_max and item > second_max:
+#             second_max = item
+#     return second_max
+
+
+# print(find_second_maximum([9, 2, 3, 6]))
+
 
 
 
