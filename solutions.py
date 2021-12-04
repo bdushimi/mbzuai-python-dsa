@@ -272,14 +272,37 @@ Sample output
 
 
 # Challenge 3
-# Implement a function, find_product(lst), which modifies a list so that each index has a product of all the numbers present in the list except the number stored at that index.
+# Implement a function, find_product(lst), 
+# which modifies a list so that each index has a product of all 
+# the numbers present in the list except the number stored at that index.
 
 # Input
 # A list of numbers (could be floating points or integers)
 # arr = [1,2,3,4]
+
 # Output:#
-# A list such that each index has a product of all the numbers in the list except the number stored at that index.
+# A list such that each index has a product of all the numbers in the list
+# except the number stored at that index.
 # arr = [24,12,8,6]
+
+# Solution 1
+# def find_product(lst):
+#     productList = []
+#     for i in range(len(lst)):
+#         product = 1
+#         for j in range(len(lst)):
+#             if i != j:
+#                 product *= lst[j]
+#         productList.append(product)
+#     return productList
+
+# list1 = [1,2,3,4]
+# print(find_product(list1))
+
+
+
+
+
 
 
 
